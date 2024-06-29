@@ -1,21 +1,77 @@
 // Deployed Site 
 GET 
 
-// LocalHost 
+// LocalHost Account
 ### Get All Users 
-GET http://localhost:3000/contacts
+GET http://localhost:3000/accounts
 
 ### Get Single User 
-GET http://localhost:3000/contacts/666e62bb253c857763fc57ce
+GET http://localhost:3000/accounts/667f8f9ff251a9c99984956c
 
 ### Create User 
-POST http://localhost:3000/contacts HTTP/1.1 
+POST http://localhost:3000/accounts HTTP/1.1 
 content-type: application/json
+
+{
+    "firstName": "Garrison",
+    "lastName": "Gregory",
+    "email": "garrison.gregory@gmail.com",
+    "phoneNumber": "360-791-7887",
+    "password": "greg4life",
+    "securityQuestion": "What is you maiden name",
+    "securityAnswer": "Gregory"
+}
 
 ### Update User 
-PUT http://localhost:3000/contacts/666e62bb253c857763fc57ce HTTP/1.1 
+PUT http://localhost:3000/accounts/667f90fd2ed588e385f278d4 HTTP/1.1 
 content-type: application/json
 
+{
+    "firstName": "Sally",
+    "lastName": "Scrawlly",
+    "email": "sally.scrawly@gmail.com",
+    "phoneNumber": "360-791-7557",
+    "password": "silliestsally789",
+    "securityQuestion": "Who is your best friend?",
+    "securityAnswer": "William"
+}
+
 ### Delete User 
-DELETE http://localhost:3000/contacts/667765e0aa5cdb31f80224b9 HTTP/1.1 
+DELETE http://localhost:3000/accounts/667f9230f251a9c9998d58fb HTTP/1.1 
+content-type: application/json
+
+
+
+
+
+
+// LocalHost Shows
+### Get All Users 
+GET http://localhost:3000/shows
+
+### Get Single User 
+GET http://localhost:3000/shows/667f946ff251a9c999952806
+
+### Create User 
+POST http://localhost:3000/shows HTTP/1.1 
+content-type: application/json
+
+{
+    "name": "How I Met Your Mother",
+    "seasons": "9",
+    "episodes": "208"
+}
+
+### Update User 
+PUT http://localhost:3000/shows/667f956bd0d8fe91032edd0c HTTP/1.1 
+content-type: application/json
+
+{
+    "name": "How I Met Your Mother",
+    "seasons": "10",
+    "episodes": "208"
+}
+
+### Delete User 
+DELETE http://localhost:3000/shows/667f94dbe4416d8d5ab39c86 HTTP/1.1 
 content-type: application/json
