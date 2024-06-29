@@ -1,2 +1,21 @@
-GET http://localhost:3000/
+// Deployed Site 
+GET 
 
+// LocalHost 
+### Get All Users 
+GET http://localhost:3000/contacts
+
+### Get Single User 
+GET http://localhost:3000/contacts/666e62bb253c857763fc57ce
+
+### Create User 
+POST http://localhost:3000/contacts HTTP/1.1 
+content-type: application/json
+
+### Update User 
+PUT http://localhost:3000/contacts/666e62bb253c857763fc57ce HTTP/1.1 
+content-type: application/json
+
+### Delete User 
+DELETE http://localhost:3000/contacts/667765e0aa5cdb31f80224b9 HTTP/1.1 
+content-type: application/json
