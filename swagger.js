@@ -5,7 +5,7 @@ const doc = {
     title: "Users API",
     description: "Users API"
   },
-  host: "localhost:3000",
+  host: "https://cse341project2-ziwy.onrender.com",
   schemes: ["http", "https"]
 };
 
