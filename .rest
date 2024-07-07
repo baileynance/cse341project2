@@ -33,7 +33,7 @@ content-type: application/json
     "phoneNumber": "360-791-7557",
     "password": "silliestsally789",
     "securityQuestion": "Who is your best friend?",
-    "securityAnswer": "William"
+    "securityAnswer": "Michael"
 }
 
 ### Delete User 
@@ -57,9 +57,9 @@ POST http://localhost:3000/shows HTTP/1.1
 content-type: application/json
 
 {
-    "name": "How I Met Your Mother",
+    "name": "Test",
     "seasons": "9",
-    "episodes": "208"
+    "episodes": "276"
 }
 
 ### Update User 
@@ -73,5 +73,5 @@ content-type: application/json
 }
 
 ### Delete User 
-DELETE http://localhost:3000/shows/667f94dbe4416d8d5ab39c86 HTTP/1.1 
+DELETE http://localhost:3000/shows/6680e767102e2d03d549c730 HTTP/1.1 
 content-type: application/json
