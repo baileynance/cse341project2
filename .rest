@@ -1,5 +1,5 @@
 // Deployed Site 
-GET 
+GET https://cse341project2-ziwy.onrender.com
 
 // LocalHost Account
 ### Get All Users 
