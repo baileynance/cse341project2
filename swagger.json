@@ -5,11 +5,11 @@
     "description": "Users API",
     "version": "1.0.0"
   },
-  "host": "https://cse341project2-ziwy.onrender.com",
+  "host": "cse341project2-ziwy.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "paths": {
     "/": {
